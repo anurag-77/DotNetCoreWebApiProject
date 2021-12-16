@@ -34,13 +34,11 @@ namespace DotNetCoreWebApiAngular
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DotNetCoreWebApiAngular", Version = "v1" });
             });
 
-            //services.AddCors(options => options.AddDefaultPolicy(
-            //        builder => builder.WithOrigins("http://localhost:4200")));
-
-            services.AddCors();
+            services.AddCors(options => options.AddDefaultPolicy(
+                    builder => builder.WithOrigins("http://localhost:4200")));
 
 
-            services.AddSingleton<IEmployee, EmployeeRepository>();
+            services.AddSingleton<IPartner, PartnerRepository>();
             services.AddSingleton<ILogin, LoginReposiroty>();
             services.AddSingleton<IUser, UserRepository>();
 
@@ -58,7 +56,9 @@ namespace DotNetCoreWebApiAngular
             }
 
 
-            app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+            app.UseCors(options => options.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod());
+
+            //app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
             app.UseHttpsRedirection();
 

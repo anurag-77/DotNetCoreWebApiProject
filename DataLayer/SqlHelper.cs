@@ -14,7 +14,7 @@ namespace DotNetCoreWebApiAngular.DataLayer
     {
         //private readonly IConfiguration _config;
 
-        static string conStr = "Data Source=LAP437\\SQLEXPRESS2019;Initial Catalog=ANGULARDB;Persist Security Info=True;User ID=sa;Password=systemadmin";
+        static string conStr = "Data Source=W2K12R2IMP90;Initial Catalog=AngularArconAudit;Persist Security Info=True;User ID=sa;Password=sa";
         //static string conStr = "Data Source=Dsk087;Initial Catalog=ArconAudit;Persist Security Info=True;User ID=sa;Password=$pass@123";
         //static string conStr = @"Data Source=WIN2K12SQLNOD1\MSSQLSERVER17;Initial Catalog=ArconAudit_Trent;Persist Security Info=True;User ID=sa;Password=sa";
 
@@ -2533,7 +2533,7 @@ namespace DotNetCoreWebApiAngular.DataLayer
 /// </summary>
 public sealed class SqlHelperParameterCache
 {
-    static string conStr = "Data Source=LAP437\\SQLEXPRESS2019;Initial Catalog=ANGULARDB;Persist Security Info=True;User ID=sa;Password=systemadmin";
+    static string conStr = "Data Source=W2K12R2IMP90;Initial Catalog=AngularArconAudit;Persist Security Info=True;User ID=sa;Password=sa";
 
     //static string conStr = @"Data Source=WIN2K12SQLNOD1\MSSQLSERVER17;Initial Catalog=ArconAudit_Indus;Persist Security Info=True;User ID=sa;Password=sa";
 

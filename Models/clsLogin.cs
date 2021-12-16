@@ -18,4 +18,10 @@ namespace DotNetCoreWebApiAngular.Models
     {
 
     }
+
+    public enum Status
+    {
+        Deactive,
+        Active
+    }
 }
