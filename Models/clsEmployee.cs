@@ -13,6 +13,7 @@ namespace DotNetCoreWebApiAngular.Models
         public string Salary { get; set; }
         public string Mobile { get; set; }
         public string Email { get; set; }
+        public string GitTestString { get; set; }
     }
 
 
