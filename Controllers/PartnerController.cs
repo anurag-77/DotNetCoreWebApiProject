@@ -101,6 +101,7 @@ namespace DotNetCoreWebApiAngular.Controllers
             else
             {
                 result = "Partner not deleted.";
+                string test_git;
             }
 
             return result;
