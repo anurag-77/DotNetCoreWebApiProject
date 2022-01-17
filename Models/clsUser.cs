@@ -30,4 +30,5 @@ namespace DotNetCoreWebApiAngular.Models
         }
     }
     //TEST COMMIT FOR GIT TESTING
+    //changes to be stashed
 }
