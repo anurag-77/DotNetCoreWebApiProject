@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNetCoreWebApi&Angular\\DotNetCoreWebApiAngular\\DotNetCoreWebApiAngular.csproj": {}
+    "H:\\DotNetCoreWebApi&Angular\\DotNetCoreWebApiProject\\DotNetCoreWebApiAngular.csproj": {}
   },
   "projects": {
-    "D:\\DotNetCoreWebApi&Angular\\DotNetCoreWebApiAngular\\DotNetCoreWebApiAngular.csproj": {
+    "H:\\DotNetCoreWebApi&Angular\\DotNetCoreWebApiProject\\DotNetCoreWebApiAngular.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNetCoreWebApi&Angular\\DotNetCoreWebApiAngular\\DotNetCoreWebApiAngular.csproj",
+        "projectUniqueName": "H:\\DotNetCoreWebApi&Angular\\DotNetCoreWebApiProject\\DotNetCoreWebApiAngular.csproj",
         "projectName": "DotNetCoreWebApiAngular",
-        "projectPath": "D:\\DotNetCoreWebApi&Angular\\DotNetCoreWebApiAngular\\DotNetCoreWebApiAngular.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNetCoreWebApi&Angular\\DotNetCoreWebApiAngular\\obj\\",
+        "projectPath": "H:\\DotNetCoreWebApi&Angular\\DotNetCoreWebApiProject\\DotNetCoreWebApiAngular.csproj",
+        "packagesPath": "C:\\Users\\anurag.mahadik\\.nuget\\packages\\",
+        "outputPath": "H:\\DotNetCoreWebApi&Angular\\DotNetCoreWebApiProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anurag.mahadik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -84,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
